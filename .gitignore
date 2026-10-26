@@ -1,0 +1,41 @@
+# Python cache and generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated notebook outputs
+logs/
+monitoring_reports/
+
+# Local dataset
+kidney_disease_cleaned.csv
+
+# Coverage and test artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Distribution and build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
